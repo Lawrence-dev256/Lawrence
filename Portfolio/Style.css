@@ -343,15 +343,6 @@ body {
     width: 100%;
   }
 }
-/* .home-info1 {
-  font-size: clamp(5rem, 3vw, 3rem);
-  font-weight: 700;
-  line-height: 0.95;
-  letter-spacing: -3px;
-  text-transform: uppercase;
-  margin-bottom: 2px;
-  color: white;
-}  */
 
 /* ==========================
    CONTENT AREA
@@ -1602,10 +1593,10 @@ footer {
   border-radius: 0px;
 }
 
-.card:nth-child(4) .bi-snapchat {
+.card:nth-child(4) .bi-whatsapp {
   opacity: 0;
   transition: 0.2s ease-in-out;
-  fill: black;
+  fill: #25d366;
 }
 
 .card:nth-child(5) {
@@ -1704,7 +1695,7 @@ footer {
   opacity: 1;
 }
 
-.main:hover .bi-snapchat {
+.main:hover .bi-whatsapp {
   opacity: 1;
 }
 
@@ -1756,7 +1747,7 @@ footer {
   background-color: #1e1f26;
 }
 
-.card:nth-child(4):hover .bi-snapchat {
+.card:nth-child(4):hover .bi-whatsapp {
   fill: white;
 }
 
