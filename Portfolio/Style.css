@@ -69,7 +69,7 @@ body {
 
 .brand {
   position: absolute;
-  left: 50%;
+  left: 45%;
   transform: translateX(-50%);
   display: flex;
   align-items: center;
@@ -78,20 +78,53 @@ body {
   text-decoration: none;
 }
 
-.brand-logo {
+
+
+  .brand-logo {
   width: 42px;
   height: 42px;
-  background: #ed5a3a;
   color: white;
+  font-weight: 800;
+
+  background: #ed5a3a;
+
   border-radius: 50%;
+
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 18px;
-  transition: 0.4s ease;
+  align-items: center;
+
+  overflow: hidden;
+
+  transition: transform 0.4s ease;
+
   box-shadow: 0 0 20px #ed5a3a;
+
+  flex-shrink: 0;
 }
+
+.brand-image {
+  height: 38px;
+  width: auto;
+
+  display: block;
+
+  object-fit: contain;
+
+  transition: transform .4s ease,
+              opacity .4s ease,
+              filter .4s ease;
+}
+
+.brand:hover .brand-logo {
+  transform: rotate(360deg) scale(1.1);
+}
+
+.brand:hover .brand-image {
+  transform: translateX(4px);
+  opacity: .95;
+}
+
 
 .brand-name {
   color: white;
@@ -99,6 +132,8 @@ body {
   font-weight: 600;
   margin: 0;
   transition: 0.4s ease;
+  overflow-x: hidden;
+  height: 60px;
 }
 
 .brand:hover .brand-logo {
