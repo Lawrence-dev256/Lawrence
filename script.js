@@ -62,9 +62,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         facebook: "https://web.facebook.com/profile.php?id=61570767509752",
 
-        whatsapp: "https://wa.me/2349068956341",
+        whatsapp: "https://wa.me/message/HM5LQH2F3HB6G1",
 
-        google: "https://adewaletomisin35@gmail.com",
+        tiktok: "https://www.tiktok.com/@lawrence.dev",
 
         discord: "https://discord.com/channels/@me",
 
@@ -320,7 +320,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     break;
 
                 case 4:
-                    window.location.href = PLACEHOLDER_LINKS.google;
+                    window.location.href = PLACEHOLDER_LINKS.tiktok;
                     break;
                 
                 case 5:
