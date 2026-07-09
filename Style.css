@@ -429,7 +429,7 @@ body {
   width: 260px;
   height: 260px;
   border: 1px solid #ed5a3a;
-  top: 20%;
+  top: 25%;
   left: 15%;
   transform: rotate(45deg);
   animation: rotateShape 18s linear infinite;
@@ -549,6 +549,7 @@ body {
   max-width: 420px;
   display: block;
   margin: auto;
+  right: 2%;
 }
 
 .home-img .img-box::before,
@@ -1558,7 +1559,6 @@ footer {
     border-radius: 25px;
   }
   .btn-orange {
-    width: 50%;
     margin-top: 20px;
   }
   .hero-buttons {
