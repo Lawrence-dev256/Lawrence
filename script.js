@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const PLACEHOLDER_LINKS = {
 
-        portfolio: "#",
+        portfolio: "https://github.com/Lawrence-dev256",
 
         hire: "https://adewaletomisin35@gmail.com",
 
@@ -74,9 +74,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         Linkedin: "http://linkedin.com/in/lawrence-d-dev-b467b032a",
 
-        viewAll: "#",
+        viewAll: "blog.html",
 
-        brand: "#"
+        brand: "#home"
 
 
 
@@ -285,7 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             }
 
-            window.location.href = "#";
+            window.location.href = "https://adewaletomisin35@gmail.com";
 
         });
 
@@ -324,11 +324,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     break;
                 
                 case 5:
-                    window.location.href = PLACEHOLDER_LINKS.Linkedin
+                    window.location.href = PLACEHOLDER_LINKS.discord
                     break;
                 
                 case 6:
-                    window.location.href = PLACEHHOLDER_LINKS.discord
+                    window.location.href = PLACEHHOLDER_LINKS.github
                     break;
 
                 case 7:
@@ -336,8 +336,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     break;
 
                 case 8:
-                    window.location.href = PLACEHHOLDER_LINKS.
-                    break;
+                    window.location.href = PLACEHHOLDER_LINKS.Linkedin
+                    break;   
 
             }
 
@@ -703,5 +703,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.add("loaded");
 
     });
+
+    
 
     

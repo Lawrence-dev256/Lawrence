@@ -357,7 +357,7 @@ body {
   }
 }
 
-.home h3 span::before {
+ .home h3 span::before {
   content: attr(data-text);
   position: absolute;
   width: 0;
@@ -377,7 +377,7 @@ body {
   90% {
     width: 100%;
   }
-}
+} 
 
 /* ==========================
    CONTENT AREA
@@ -430,7 +430,7 @@ body {
   height: 260px;
   border: 1px solid #ed5a3a;
   top: 20%;
-  left: 5%;
+  left: 15%;
   transform: rotate(45deg);
   animation: rotateShape 18s linear infinite;
   z-index: 1;
@@ -1523,6 +1523,14 @@ footer {
   .hire-section {
     padding: 40px 25px;
   }
+
+  .home h3{
+    min-height: 55px;
+  }
+
+  .home h3 span {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
 }
 
 @media (max-width: 480px) {
@@ -1575,6 +1583,7 @@ footer {
   width: 14em;
   align-items: center;
   justify-content: center;
+  margin-left: 70px;
   z-index: -1;
   transition: transform 0.3s ease-in-out;
 }
@@ -1752,6 +1761,7 @@ footer {
 
 .main:hover .bi-linkedin {
   opacity: 1;
+  color: #ffffff;
 }
 
 .card:nth-child(1):hover {
